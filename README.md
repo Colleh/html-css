@@ -3,4 +3,4 @@
 
 Vivendo e aprendendo cada vez mais...
 
-<a href="https://colleh.github.io/html-css/ex/ex001>
+<a href="https://colleh.github.io/html-css/ex/ex001">Executar o exercício 001</a>
