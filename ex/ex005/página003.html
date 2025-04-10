@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproduzindo Vídeos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inserindo Vídeos Hospededos Localmente</h1>
+    <p>Esse vídeo está hospedado no meu próprio servidor. <br>
+    O vídeo foi salvo do site 'Pexels' e foi convertido.</p>
+   <video controls height="400">
+    <!--Pode colocar 'poster' antes de 'controls' para ter uma capa no vídeo-->
+    <source src="midia2/Meu-Video.ogv" type="video/ogg">
+    <source src="midia2/Meu-Video.webm" type="video/webm">
+    <source src="midia2/Meu-Video.mp4" type="video/mp4">
+    <source src="midia2/Meu-Video.m4v" type="video/mp4">
+    <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+   </video>
+    <!-- Jeito simples, porém não muito recomendado <video src="midia2/Meu-Video.mp4" height="400" controls></video>-->
+     <h1>Inserindo Vídeos do <ins>YouTube</ins></h1>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/Jzj9zLrsI3A?si=2qk7yj_3QKyRlj20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <h1>Vídeos no <ins>Vimeo</ins></h1>
+     <h2>Melhor ou pior que o YouTube?</h2>
+     <iframe src="https://player.vimeo.com/video/1055537544?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Peter Hair (Adult Swim)"></iframe>
+</body>
+</html>

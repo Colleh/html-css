@@ -1,0 +1,16 @@
+body {
+    background-color: sandybrown;
+    color: crimson;
+}
+h1 {
+    background-color: rgb(248, 188, 128);
+    font-size: 45px;
+    text-align: center;
+}
+p {
+font-size: 25px;
+text-align: center;
+}
+ul {
+    font-size: 22px;
+}

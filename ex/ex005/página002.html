@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5 de outra forma, <br>
+    uma mais abrangente para os navegadores.</p>
+    <audio preload="metadata" autoplay controls loop> 
+        <source src="midia/fun-life-upbeat-commercial-hiphop-112188.mp3" type="audio/mpeg">
+       <source src="midia/fun-life-upbeat-commercial-hiphop-112188.ogg" type="audio/ogg">
+       <source src="midia/fun-life-upbeat-commercial-hiphop-112188.wav" type="audio/wav">
+       <p>Infelizmente o seu navegador não consegue reproduzir esse áudio</p>
+       <a href="midia/fun-life-upbeat-commercial-hiphop-112188.mp3">click aqui para baixar o arquivo MP3
+       </a>
+    </audio>
+    <!-- Outra alternativa mais simples, pórem de menos acesso ao público.<audio src="midia/fun-life-upbeat-commercial-hiphop-112188.mp3" controls autoplay loop></audio>-->
+</body>
+</html>

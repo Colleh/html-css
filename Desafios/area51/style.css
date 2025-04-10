@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: black;
+    background-image: url(imagens/Papel-de-parede-alien.jpg);
+    color: rgb(193, 255, 99);
+    font-family: cursive;
+}
+p {
+    text-align: justify;
+    font-size: 22px;
+}
+h1 {
+    font-size: 55px;
+    color: rgb(92, 141, 19);  
+    background-color:  rgb(123, 200, 9);
+}
+h2 {
+    color:  rgb(114, 183, 11);
+    font-size: 35px;
+}
+blockquote {
+    font-size: 20px;
+}
+a {
+    color: rgb(193, 255, 99);
+    font-family: cursive;
+    font-size: 22px;
+}
+li {
+    text-align: left;
+}

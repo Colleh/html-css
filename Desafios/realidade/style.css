@@ -1,0 +1,19 @@
+body { 
+    background-color: rgb(219, 176, 183);font-family: cursive;
+    text-align: center;
+}
+h1 {
+    font-size: 45px;
+    background-color: rgb(198, 144, 153);
+}
+h2 {
+    font-size: 30px;
+    background-color: rgb(198, 144, 153);;
+}
+p {
+    font-size: 25px;
+}
+button {
+    font-size: 35px;
+    background-color:rgb(198, 144, 153);
+}
