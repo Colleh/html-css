@@ -1,2 +1,4 @@
 # html-css
- Exercícios e desafios do curdo de HTML e CSS.
+ Exercícios e desafios do curso de HTML e CSS.
+
+Vivendo e aprendendo cada vez mais...
