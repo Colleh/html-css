@@ -18,6 +18,7 @@
     <li><a href="https://colleh.github.io/html-css/ex/ex007">Execute o exercício 007</a></li>
     <li><a href="https://colleh.github.io/html-css/ex/ex008">Execute o exercício 008</a></li>
     <li><a href="https://colleh.github.io/html-css/ex/ex009">Execute o exercício 009</a></li>
+    <li><a href="https://colleh.github.io/html-css/ex/ex010">Execute o exercício 010</a></li>
   </ul>
  <h2>Desafios</h2>
  <ul>
