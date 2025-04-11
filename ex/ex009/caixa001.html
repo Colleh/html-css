@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+        body {
+            font-family: "Roboto Condensed", sans-serif;
+            background-color: rgb(136, 136, 202);
+            margin: 0px;
+        }
+        header {
+            width: 550px;
+            background-color: white;
+            padding: 10px;
+            margin: 15px;
+        }
+        nav {
+           background-color: rgb(57, 57, 83);
+           padding: 5px;
+           box-shadow: 1px 1px 5.5px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(210, 210, 245);
+            font-weight: bold;
+            margin-right: 75px;
+        }
+        nav > a.hover {
+            text-decoration: underline;
+        }
+        a:hover {
+            color: rgb(190, 60, 255);
+            text-shadow: 1px 1px 50px rgb(154, 49, 207);
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 15px;
+            width: 550px;
+            border-radius: 15px;
+        }
+        article {
+            background-color: rgb(210, 210, 245);
+            padding: 5px;
+            border-radius: 20px;
+        }
+        article > aside {
+            background-color:  rgb(129, 162, 189);
+        }
+        footer {
+            background-color:  rgb(57, 57, 83);
+            color: rgb(210, 210, 245);
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+   </header>
+   <main>
+      <section id="assuntos">
+                <p>Esportes / Política / Tecnologia</p>
+      </section>
+      <section id="noticias">
+             <article>
+                <h2>Notícia sobre o Brasil</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+                            Quisquam ut laboriosam, temporibus accusantium unde aliquid commodi placeat laborum, <br>
+                            enim facere dicta debitis. Beatae nemo animi repellat aspernatur, eius ipsa doloremque?</p>
+                   <aside>
+                    <p>Artigo escrito pela Amanda Delgoso.</p>
+                   </aside>
+             </article>
+      </section>
+   </main>
+   <footer>
+        <p>Desenvolvido pela aluna Nycole Nayara Trapp.</p>
+   </footer>
+</body>
+</html>
